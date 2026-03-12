@@ -1,0 +1,50 @@
+1. Program Title :
+Find the Largest of Three Numbers using Python Function.
+
+2. Problem Statement :
+To write a Python program that uses a function to find the largest of three numbers entered by the user.
+
+3. Objective :
+• To understand Python functions.
+• To compare numbers using conditional statements.
+• To learn input and output operations.
+
+4. Tools Used :
+• Python 3
+• VS Code / IDLE
+
+5. Description :
+This program uses a user-defined function to determine the largest number among three numbers. The user enters three values, the function compares them using if-elif-else conditions, and returns the largest number which is then displayed as output.
+
+6. Algorithm :
+1.Start the program
+2.Define a function largest(a, b, c)
+3.Compare the three numbers using conditional statements
+4.Return the largest number
+5.Read three numbers from the user
+6.Call the function with these numbers
+7.Display the largest number
+8.Stop the program
+
+7. Program (Python Code) :
+def largest(a, b, c):
+    if a >= b and a >= c:
+        return a
+    elif b >= a and b >= c:
+        return b
+    else:
+        return c
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+num3 = int(input("Enter third number: "))
+
+result = largest(num1, num2, num3)
+
+print("Largest number =", result)
+
+9. Result :
+Thus the Python program to find the largest of three numbers using a function was executed successfully and the correct result was obtained.
+
+10. Conclusion :
+This program demonstrates the use of functions and conditional statements in Python to determine the largest number among three inputs.
